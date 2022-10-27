@@ -1,0 +1,14 @@
+view page source is the code given to the browser
+inspect is the page after changes
+innertext the tags are written as text
+innerhtml the tags are taken as tags
+dom is html elements stored in js format
+html are converted to js by browser
+
+
+validation:
+    data integrity
+    data duplication
+    resource optimization
+    security
+    better services

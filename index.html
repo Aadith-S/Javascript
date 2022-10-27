@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="main">text</p>
+    <p id="main1">text</p>
+    <!-- <button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button><button></button> -->
+    <style>
+        .bg-red{
+            background-color: red;
+            color: white;
+        }
+        .bg-blue{
+            background-color: blue;
+            color: white;
+        }
+    </style>
+   <br><button onclick="msclick(event)" onmouseover="mshover()">hlo</button>
+   <br><br><div id="pic"><img src="download.jfif" alt=""></div>
+   <button id="showpic" onclick="show(event)">Hide</button>
+    <button class="buts bg-blue"></button><button class="buts"></button><button class="buts"></button><button class="buts"></button><button class="buts"></button>
+    <form onsubmit="validate(event)" name="login">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <span id="error" style="color: red;"></span><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
